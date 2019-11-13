@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="xc-framework-parent" />
         <module name="xc-framework-model" />
+        <module name="xc-framework-utils" />
         <module name="xc-framework-common" />
       </profile>
     </annotationProcessing>
@@ -16,7 +17,7 @@
       <module name="xc-framework-common" target="1.8" />
       <module name="xc-framework-model" target="1.8" />
       <module name="xc-framework-parent" target="1.8" />
-      <module name="xc-framework-utils" target="1.5" />
+      <module name="xc-framework-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +25,7 @@
       <module name="xc-framework-common" options="-parameters" />
       <module name="xc-framework-model" options="-parameters" />
       <module name="xc-framework-parent" options="-parameters" />
+      <module name="xc-framework-utils" options="-parameters" />
     </option>
   </component>
 </project>
