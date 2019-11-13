@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="xc-framework-parent" />
         <module name="xc-framework-model" />
-        <module name="xc-framework-utils" />
         <module name="xc-framework-common" />
       </profile>
     </annotationProcessing>
