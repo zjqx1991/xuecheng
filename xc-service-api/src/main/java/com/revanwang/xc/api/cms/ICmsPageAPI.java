@@ -1,5 +1,6 @@
 package com.revanwang.xc.api.cms;
 
+import com.revanwang.xc.framework.domain.cms.CmsPage;
 import com.revanwang.xc.framework.domain.cms.request.QueryPageRequest;
 import com.revanwang.xc.framework.model.response.QueryResponseResult;
 import io.swagger.annotations.Api;
@@ -24,5 +25,10 @@ public interface ICmsPageAPI {
 
     @ApiOperation("查询cms模板")
     QueryResponseResult queryCmsTemplateList();
+
+    @ApiOperation("新增cms页面")
+    QueryResponseResult cmsPageAdd(CmsPage cmsPage);
+
+
 
 }

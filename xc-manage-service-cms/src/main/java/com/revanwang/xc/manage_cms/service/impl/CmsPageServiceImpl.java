@@ -70,11 +70,10 @@ public class CmsPageServiceImpl implements ICmsPageService {
 
         //4.条件查询
         Example<CmsPage> example = Example.of(cmsPage, matcher);
-//        Page<CmsPage> pages = this.cmsPageRepository.findAll(example, pageable);
-        Page<CmsPage> pages = this.cmsPageRepository.findAll(pageable);
+        Page<CmsPage> pages = this.cmsPageRepository.findAll(example, pageable);
 
-        QueryResult result = new QueryResult();
-        result.setList(pages.getContent());
+        QueryResult<List<CmsPage>> result = new QueryResult<>();
+        result.setData(pages.getContent());
         result.setTotal(pages.getTotalElements());
         return new QueryResponseResult(CommonCode.SUCCESS, result);
     }
@@ -82,16 +81,29 @@ public class CmsPageServiceImpl implements ICmsPageService {
     @Override
     public QueryResponseResult querySiteList() {
         List<CmsSite> cmsSites = this.cmsSiteRepository.findAll();
-        QueryResult<CmsSite> result = new QueryResult<>();
-        result.setList(cmsSites);
+        QueryResult<List<CmsSite>> result = new QueryResult<>();
+        result.setData(cmsSites);
         return new QueryResponseResult(CommonCode.SUCCESS, result);
     }
 
     @Override
     public QueryResponseResult queryCmsTemplateList() {
         List<CmsTemplate> cmsTemplates = this.cmsTemplateRepository.findAll();
-        QueryResult<CmsTemplate> result = new QueryResult<>();
-        result.setList(cmsTemplates);
+        QueryResult<List<CmsTemplate>> result = new QueryResult<>();
+        result.setData(cmsTemplates);
+        return new QueryResponseResult(CommonCode.SUCCESS, result);
+    }
+
+    @Override
+    public QueryResponseResult cmsPageAdd(CmsPage cmsPage) {
+        CmsPage queryCms = this.cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
+        if (queryCms != null) {
+            throw new RuntimeException("已保存");
+        }
+        CmsPage saveCmsPage = this.cmsPageRepository.save(cmsPage);
+        QueryResult<CmsPage> result = new QueryResult<>();
+        result.setData(saveCmsPage);
+
         return new QueryResponseResult(CommonCode.SUCCESS, result);
     }
 }

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03817dd1-3ede-4bbb-94b0-652c5de92ff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/revanwang/xc/framework/domain/cms/CmsSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/revanwang/xc/framework/domain/cms/CmsTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/dao/ICmsSiteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/dao/ICmsTemplateRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/model/response/QueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/model/response/QueryResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/dao/ICmsPageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/dao/ICmsPageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsPageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsPageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsPageServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsPageController.java" afterDir="false" />
@@ -153,7 +151,7 @@
       <updated>1573618398896</updated>
       <workItem from="1573618400721" duration="16677000" />
       <workItem from="1573637539493" duration="3197000" />
-      <workItem from="1573649801520" duration="12873000" />
+      <workItem from="1573649801520" duration="16661000" />
     </task>
     <servers />
   </component>

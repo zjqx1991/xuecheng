@@ -1,5 +1,6 @@
 package com.revanwang.xc.manage_cms.service;
 
+import com.revanwang.xc.framework.domain.cms.CmsPage;
 import com.revanwang.xc.framework.domain.cms.request.QueryPageRequest;
 import com.revanwang.xc.framework.model.response.QueryResponseResult;
 
@@ -18,5 +19,14 @@ public interface ICmsPageService {
      */
     QueryResponseResult querySiteList();
 
+    /**
+     * 查询 CMS 模板
+     */
     QueryResponseResult queryCmsTemplateList();
+
+
+    /**
+     * 添加 CMS 页面
+     */
+    QueryResponseResult cmsPageAdd(CmsPage cmsPage);
 }
