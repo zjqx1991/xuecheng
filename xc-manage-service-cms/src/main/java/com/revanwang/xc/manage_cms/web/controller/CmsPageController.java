@@ -19,7 +19,19 @@ public class CmsPageController implements ICmsPageAPI {
 
     @Override
     @GetMapping("/list/{page}/{size}")
-    public QueryResponseResult findList(@PathVariable("page") int page, @PathVariable("size") int size, QueryPageRequest queryPageRequest) {
+    public QueryResponseResult findCmsList(@PathVariable("page") int page, @PathVariable("size") int size, QueryPageRequest queryPageRequest) {
         return this.cmsPageService.findList(page, size, queryPageRequest);
+    }
+
+    @Override
+    @GetMapping("/site")
+    public QueryResponseResult queryCmsSiteList() {
+        return this.cmsPageService.querySiteList();
+    }
+
+    @Override
+    @GetMapping("/template")
+    public QueryResponseResult queryCmsTemplateList() {
+        return this.cmsPageService.queryCmsTemplateList();
     }
 }

@@ -12,4 +12,11 @@ public interface ICmsPageService {
      * @return
      */
     QueryResponseResult findList(int page, int size, QueryPageRequest queryPageRequest);
+
+    /**
+     * 查询 CMS 站点
+     */
+    QueryResponseResult querySiteList();
+
+    QueryResponseResult queryCmsTemplateList();
 }
