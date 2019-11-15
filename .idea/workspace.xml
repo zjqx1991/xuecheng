@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="03817dd1-3ede-4bbb-94b0-652c5de92ff8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/model/response/QueryResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/model/response/QueryResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/dao/ICmsPageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/dao/ICmsPageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsPageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsPageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsPageServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsPageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsPageAPI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +55,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -152,6 +152,14 @@
       <workItem from="1573618400721" duration="16677000" />
       <workItem from="1573637539493" duration="3197000" />
       <workItem from="1573649801520" duration="16661000" />
+      <workItem from="1573735354695" duration="764000" />
+      <workItem from="1573738941173" duration="737000" />
+      <workItem from="1573740541929" duration="588000" />
+      <workItem from="1573744671212" duration="1309000" />
+      <workItem from="1573747468224" duration="1287000" />
+      <workItem from="1573774507407" duration="780000" />
+      <workItem from="1573776056554" duration="113000" />
+      <workItem from="1573776256690" duration="2502000" />
     </task>
     <servers />
   </component>

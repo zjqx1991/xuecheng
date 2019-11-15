@@ -30,5 +30,12 @@ public interface ICmsPageAPI {
     QueryResponseResult cmsPageAdd(CmsPage cmsPage);
 
 
+    @ApiOperation("删除cms页面")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "id", value = "删除id", required = true, paramType = "path", dataType = "string")
+    })
+    QueryResponseResult cmsPageDelete(String id);
+
+
 
 }

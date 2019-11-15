@@ -29,4 +29,11 @@ public interface ICmsPageService {
      * 添加 CMS 页面
      */
     QueryResponseResult cmsPageAdd(CmsPage cmsPage);
+
+    /**
+     * 删除 CMS
+     * @param id CMS的id
+     * @return
+     */
+    QueryResponseResult cmsPageDelete(String id);
 }

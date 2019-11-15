@@ -17,6 +17,7 @@ import org.springframework.data.domain.*;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class CmsPageServiceImpl implements ICmsPageService {
@@ -30,7 +31,7 @@ public class CmsPageServiceImpl implements ICmsPageService {
 
     @Override
     public QueryResponseResult findList(int page, int size, QueryPageRequest queryCondition) {
-        if(queryCondition == null){
+        if (queryCondition == null) {
             queryCondition = new QueryPageRequest();
         }
 
@@ -98,12 +99,23 @@ public class CmsPageServiceImpl implements ICmsPageService {
     public QueryResponseResult cmsPageAdd(CmsPage cmsPage) {
         CmsPage queryCms = this.cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
         if (queryCms != null) {
-            throw new RuntimeException("已保存");
+            return new QueryResponseResult(CommonCode.FAIL, null);
+//            throw new RuntimeException("已保存");
         }
         CmsPage saveCmsPage = this.cmsPageRepository.save(cmsPage);
         QueryResult<CmsPage> result = new QueryResult<>();
         result.setData(saveCmsPage);
 
         return new QueryResponseResult(CommonCode.SUCCESS, result);
+    }
+
+    @Override
+    public QueryResponseResult cmsPageDelete(String id) {
+        Optional<CmsPage> optional = this.cmsPageRepository.findById(id);
+        if (optional.isPresent()) {
+            this.cmsPageRepository.deleteById(id);
+            return new QueryResponseResult(CommonCode.SUCCESS, null);
+        }
+        return new QueryResponseResult(CommonCode.FAIL, null);
     }
 }
