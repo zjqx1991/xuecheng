@@ -18,6 +18,11 @@ public interface ICmsPageAPI {
     })
     QueryResponseResult findCmsList(int page, int size, QueryPageRequest queryPageRequest);
 
+    @ApiOperation("cms指定id页面")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "id", value = "查询id", required = true, paramType = "path", dataType = "string")
+    })
+    QueryResponseResult queryCmsById(String id);
 
     @ApiOperation("查询cms站点")
     QueryResponseResult queryCmsSiteList();

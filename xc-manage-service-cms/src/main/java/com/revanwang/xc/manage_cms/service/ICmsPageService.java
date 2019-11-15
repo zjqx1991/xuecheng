@@ -36,4 +36,11 @@ public interface ICmsPageService {
      * @return
      */
     QueryResponseResult cmsPageDelete(String id);
+
+    /**
+     * 查询指定id的 CMS
+     * @param id
+     * @return
+     */
+    QueryResponseResult queryCmsById(String id);
 }

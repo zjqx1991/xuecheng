@@ -21,8 +21,10 @@ public enum CommonCode implements IResultCode{
     UNAUTHORISE(false,10002,"权限不足，无权操作！"),
     SERVER_ERROR(false,99999,"抱歉，系统繁忙，请稍后重试！"),
     INVALIDPARAM(false,99999,"抱歉，系统繁忙，请稍后重试！"),
+
     //CMS
     CMS_ADDPAGE_EXISTS(false, 1, "添加页面已存在"),
+    CMS_NOT_FOUND(false, 2, "页面不已存"),
     ;
 
     //    private static ImmutableMap<Integer, CommonCode> codes ;

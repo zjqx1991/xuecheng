@@ -118,4 +118,16 @@ public class CmsPageServiceImpl implements ICmsPageService {
         }
         return new QueryResponseResult(CommonCode.FAIL, null);
     }
+
+    @Override
+    public QueryResponseResult queryCmsById(String id) {
+        Optional<CmsPage> cmsOptionnal = this.cmsPageRepository.findById(id);
+        if (!cmsOptionnal.isPresent()) {
+            RevanThrowException.throwException(CommonCode.CMS_NOT_FOUND);
+        }
+        CmsPage cmsPage = cmsOptionnal.get();
+        QueryResult<CmsPage> result = new QueryResult<>();
+        result.setData(cmsPage);
+        return new QueryResponseResult(CommonCode.SUCCESS, result);
+    }
 }

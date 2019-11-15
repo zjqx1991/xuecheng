@@ -22,6 +22,12 @@ public class CmsPageController implements ICmsPageAPI {
     }
 
     @Override
+    @GetMapping("/by/id/{id}")
+    public QueryResponseResult queryCmsById(@PathVariable("id") String id) {
+        return this.cmsPageService.queryCmsById(id);
+    }
+
+    @Override
     @GetMapping("/site")
     public QueryResponseResult queryCmsSiteList() {
         return this.cmsPageService.querySiteList();
