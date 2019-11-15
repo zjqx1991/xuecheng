@@ -16,6 +16,7 @@ zuul:
   prefix: /api # 添加路由前缀
   retryable: true
   routes:
+    xc-manage-service-cms: /cms/**  #cms
     product-service: /item/**  # 商品微服务
     upload-service:
       path: /upload/**

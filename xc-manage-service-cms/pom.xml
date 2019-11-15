@@ -13,6 +13,11 @@
     <artifactId>xc-manage-service-cms</artifactId>
 
     <dependencies>
+        <!--Eureka客户端-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.revanwang.xc</groupId>
             <artifactId>xc-service-api</artifactId>
