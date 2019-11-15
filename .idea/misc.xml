@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/xc-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/xc-manage-service-cms/pom.xml" />
         <option value="$PROJECT_DIR$/test-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-api-gateway/pom.xml" />
       </list>
     </option>
   </component>
