@@ -8,7 +8,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EntityScan("com.revanwang.xc.framework.domain.cms")   // 扫描实体类
 @ComponentScan(basePackages = "com.revanwang.xc.api")   // 扫描接口
-@ComponentScan(basePackages = "com.revanwang.xc.manage_cms")
+@ComponentScan(basePackages = "com.revanwang.xc.manage_cms")    //扫描本工程
+@ComponentScan(basePackages = "com.revanwang.xc.framework") //扫描common工程
 @SpringBootApplication
 public class ManageCmsApplication {
     public static void main(String[] args) {

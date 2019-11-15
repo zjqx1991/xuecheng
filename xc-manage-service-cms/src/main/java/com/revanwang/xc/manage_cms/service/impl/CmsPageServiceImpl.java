@@ -4,6 +4,7 @@ import com.revanwang.xc.framework.domain.cms.CmsPage;
 import com.revanwang.xc.framework.domain.cms.CmsSite;
 import com.revanwang.xc.framework.domain.cms.CmsTemplate;
 import com.revanwang.xc.framework.domain.cms.request.QueryPageRequest;
+import com.revanwang.xc.framework.exception.RevanThrowException;
 import com.revanwang.xc.framework.model.response.CommonCode;
 import com.revanwang.xc.framework.model.response.QueryResponseResult;
 import com.revanwang.xc.framework.model.response.QueryResult;
@@ -99,8 +100,7 @@ public class CmsPageServiceImpl implements ICmsPageService {
     public QueryResponseResult cmsPageAdd(CmsPage cmsPage) {
         CmsPage queryCms = this.cmsPageRepository.findByPageNameAndSiteIdAndPageWebPath(cmsPage.getPageName(), cmsPage.getSiteId(), cmsPage.getPageWebPath());
         if (queryCms != null) {
-            return new QueryResponseResult(CommonCode.FAIL, null);
-//            throw new RuntimeException("已保存");
+            RevanThrowException.throwException(CommonCode.CMS_ADDPAGE_EXISTS);
         }
         CmsPage saveCmsPage = this.cmsPageRepository.save(cmsPage);
         QueryResult<CmsPage> result = new QueryResult<>();

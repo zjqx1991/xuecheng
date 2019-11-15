@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03817dd1-3ede-4bbb-94b0-652c5de92ff8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/exception/RevanException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/exception/RevanExceptionCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/exception/RevanThrowException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/model/response/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/model/response/CommonCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/xc-framework-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/xc-framework-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/ManageCmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/ManageCmsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsPageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsPageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsPageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsPageAPI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +162,7 @@
       <workItem from="1573747468224" duration="1287000" />
       <workItem from="1573774507407" duration="780000" />
       <workItem from="1573776056554" duration="113000" />
-      <workItem from="1573776256690" duration="2502000" />
+      <workItem from="1573776256690" duration="6031000" />
     </task>
     <servers />
   </component>
