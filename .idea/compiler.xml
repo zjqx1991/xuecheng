@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="xc-framework-common" />
+        <module name="xc-govern-center" />
         <module name="xc-framework-parent" />
         <module name="xc-framework-utils" />
         <module name="xc-manage-service-cms" />
@@ -24,6 +25,7 @@
       <module name="xc-framework-model" target="1.8" />
       <module name="xc-framework-parent" target="1.8" />
       <module name="xc-framework-utils" target="1.8" />
+      <module name="xc-govern-center" target="1.8" />
       <module name="xc-manage-service-cms" target="1.8" />
       <module name="xc-service-api" target="1.8" />
     </bytecodeTargetLevel>
@@ -36,6 +38,7 @@
       <module name="xc-framework-model" options="-parameters" />
       <module name="xc-framework-parent" options="-parameters" />
       <module name="xc-framework-utils" options="-parameters" />
+      <module name="xc-govern-center" options="-parameters" />
       <module name="xc-manage-service-cms" options="-parameters" />
       <module name="xc-service-api" options="-parameters" />
     </option>
