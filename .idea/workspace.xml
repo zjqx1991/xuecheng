@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03817dd1-3ede-4bbb-94b0-652c5de92ff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xc-api-gateway/src/main/java/com/revanwang/xc/gateway/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/revanwang/xc/framework/domain/cms/request/QueryTemplateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsTemplateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsTemplateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsTemplateAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/revanwang/xc/framework/domain/cms/CmsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/revanwang/xc/framework/domain/cms/CmsConfigModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/dao/ICmsConfigRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/test/java/com/revanwang/xc/manage_cms/web/controller/CmsConfigControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsConfigAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/src/main/java/com/revanwang/xc/freemarker/FreemarkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/revanwang/xc/freemarker/FreemarkerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-api-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsPageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsPageAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/model/response/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/revanwang/xc/framework/model/response/CommonCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/ManageCmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/ManageCmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/xc-manage-service-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/xc-manage-service-cms.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -78,19 +77,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.revanwang.xc.freemarker.controller" />
       <recent name="com.revanwang.xc.manage_cms.web.controller" />
+      <recent name="com.revanwang.xc.freemarker.controller" />
       <recent name="com.revanwang.xc.manage_cms.service.impl" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.revanwang.xc.framework.domain.cms.request" />
+      <recent name="com.revanwang.xc.manage_cms.dao" />
       <recent name="com.revanwang.xc.manage_cms.service.impl" />
       <recent name="com.revanwang.xc.manage_cms.service" />
       <recent name="com.revanwang.xc.manage_cms.web.controller" />
-      <recent name="com.revanwang.xc.gateway.config" />
+      <recent name="com.revanwang.xc.api.cms" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xc-govern-center/src/main/resources" />
@@ -117,7 +116,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FreemarkerApplication">
+  <component name="RunManager" selected="JUnit.CmsConfigControllerTest.findCmsConfigByIdTest">
+    <configuration name="CmsConfigControllerTest.findCmsConfigByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-manage-service-cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revanwang.xc.manage_cms.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revanwang.xc.manage_cms.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.revanwang.xc.manage_cms.web.controller.CmsConfigControllerTest" />
+      <option name="METHOD_NAME" value="findCmsConfigByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FreemarkerControllerTest.testGenerateHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-freemarker" />
       <extension name="coverage">
@@ -197,9 +212,11 @@
       <item itemvalue="Spring Boot.FreemarkerApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.GovernCenterApplication" />
+      <item itemvalue="JUnit.CmsConfigControllerTest.findCmsConfigByIdTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CmsConfigControllerTest.findCmsConfigByIdTest" />
         <item itemvalue="Spring Boot.GovernCenterApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="JUnit.FreemarkerControllerTest.testGenerateHtmlByString" />
@@ -252,7 +269,7 @@
       <workItem from="1573827707795" duration="63000" />
       <workItem from="1573827823437" duration="9258000" />
       <workItem from="1573863224540" duration="15787000" />
-      <workItem from="1573900451280" duration="364000" />
+      <workItem from="1573900451280" duration="9017000" />
     </task>
     <servers />
   </component>
@@ -274,5 +291,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xc-manage-service-cms/src/test/java/com/revanwang/xc/manage_cms/web/controller/CmsConfigControllerTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -25,6 +25,9 @@ public enum CommonCode implements IResultCode{
     //CMS
     CMS_ADDPAGE_EXISTS(false, 1, "添加页面已存在"),
     CMS_NOT_FOUND(false, 2, "页面不已存"),
+
+    //CMS_Config
+    CMS_CONFIG_NOT_FOUND(false, 1, "内容不已存"),
     ;
 
     //    private static ImmutableMap<Integer, CommonCode> codes ;
