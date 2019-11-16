@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03817dd1-3ede-4bbb-94b0-652c5de92ff8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-api-gateway/src/main/java/com/revanwang/xc/gateway/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/revanwang/xc/framework/domain/cms/request/QueryTemplateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/ICmsTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/service/impl/CmsTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/web/controller/CmsTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsTemplateAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/src/main/java/com/revanwang/xc/freemarker/FreemarkerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/revanwang/xc/freemarker/FreemarkerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-api-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-govern-center/src/main/java/com/revanwang/xc/govern/GovernApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-govern-center/src/main/java/com/revanwang/xc/govern/GovernCenterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/ManageCmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/java/com/revanwang/xc/manage_cms/ManageCmsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-manage-service-cms/xc-manage-service-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-manage-service-cms/xc-manage-service-cms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsPageAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/revanwang/xc/api/cms/ICmsPageAPI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -64,6 +71,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -72,13 +82,15 @@
       <recent name="com.revanwang.xc.manage_cms.web.controller" />
       <recent name="com.revanwang.xc.manage_cms.service.impl" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.revanwang.xc.manage_cms.dao" />
-      <recent name="com.revanwang.xc.api.config" />
-      <recent name="com.revanwang.xc.framework.model.response" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.revanwang.xc.framework.domain.cms.request" />
+      <recent name="com.revanwang.xc.manage_cms.service.impl" />
+      <recent name="com.revanwang.xc.manage_cms.service" />
+      <recent name="com.revanwang.xc.manage_cms.web.controller" />
+      <recent name="com.revanwang.xc.gateway.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xc-govern-center/src/main/resources" />
@@ -105,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GovernCenterApplication">
+  <component name="RunManager" selected="Spring Boot.FreemarkerApplication">
     <configuration name="FreemarkerControllerTest.testGenerateHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-freemarker" />
       <extension name="coverage">
@@ -138,6 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FreemarkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test-freemarker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.xc.freemarker.FreemarkerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="xc-api-gateway" />
       <extension name="coverage">
@@ -147,19 +166,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.xc.gateway.GatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GovernApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xc-govern-center" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revanwang.xc.govern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revanwang.xc.govern.GovernApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,11 +190,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.FreemarkerControllerTest.testGenerateHtml" />
+      <item itemvalue="JUnit.FreemarkerControllerTest.testGenerateHtmlByString" />
+      <item itemvalue="Spring Boot.ManageCmsApplication" />
+      <item itemvalue="Spring Boot.FreemarkerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.GovernCenterApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.GovernCenterApplication" />
-        <item itemvalue="Spring Boot.GovernApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="JUnit.FreemarkerControllerTest.testGenerateHtmlByString" />
         <item itemvalue="JUnit.FreemarkerControllerTest.testGenerateHtml" />
       </list>
@@ -201,17 +214,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b807799" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1d93523c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b807799" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@13707958" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3b807799" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@62dda47e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1d93523c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d6ee6d64" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +250,9 @@
       <workItem from="1573776256690" duration="13173000" />
       <workItem from="1573824210310" duration="2037000" />
       <workItem from="1573827707795" duration="63000" />
-      <workItem from="1573827823437" duration="5870000" />
+      <workItem from="1573827823437" duration="9258000" />
+      <workItem from="1573863224540" duration="15787000" />
+      <workItem from="1573900451280" duration="364000" />
     </task>
     <servers />
   </component>

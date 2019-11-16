@@ -41,6 +41,4 @@ public interface ICmsPageAPI {
     })
     QueryResponseResult cmsPageDelete(String id);
 
-
-
 }
