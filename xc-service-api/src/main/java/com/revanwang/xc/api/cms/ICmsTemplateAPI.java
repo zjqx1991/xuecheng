@@ -1,6 +1,6 @@
 package com.revanwang.xc.api.cms;
 
-import com.revanwang.xc.framework.domain.cms.request.QueryPageRequest;
+import com.revanwang.xc.framework.domain.cms.CmsTemplate;
 import com.revanwang.xc.framework.domain.cms.request.QueryTemplateRequest;
 import com.revanwang.xc.framework.model.response.QueryResponseResult;
 import io.swagger.annotations.Api;
@@ -18,5 +18,13 @@ public interface ICmsTemplateAPI {
     })
     QueryResponseResult findCmsTemplateList(int page, int size, QueryTemplateRequest templateRequest);
 
+    @ApiOperation("模板新增")
+    QueryResponseResult cmsTemplateAdd(CmsTemplate template);
+
+    @ApiOperation("模板删除")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "id", value = "删除id", required = true, paramType = "path", dataType = "string")
+    })
+    QueryResponseResult cmsTemplateDelete(String id);
 
 }

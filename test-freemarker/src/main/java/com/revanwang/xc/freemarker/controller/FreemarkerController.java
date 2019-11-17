@@ -1,14 +1,20 @@
 package com.revanwang.xc.freemarker.controller;
 
 import com.revanwang.xc.freemarker.domain.Student;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.*;
 
 @RequestMapping("/freemarker")
 @Controller
 public class FreemarkerController {
+
+    @Autowired
+    private RestTemplate restTemplate;
 
     @RequestMapping("/test1")
     public String freemarker(Map<String, Object> map) {
@@ -44,4 +50,18 @@ public class FreemarkerController {
         //返回模板文件名称
         return "test1";
     }
+
+    @RequestMapping("/banner")
+    public String index_banner(Map<String, Object> map) {
+        String dataUrl = "http://127.0.0.1:31001/cms/config/get/5a791725dd573c3574ee333f";
+        ResponseEntity<Map> forEntity = restTemplate.getForEntity(dataUrl, Map.class);
+        Map body = forEntity.getBody();
+        Map resultMap = (Map) body.get("queryResult");
+        Map data = (Map) resultMap.get("data");
+        Object model = data.get("model");
+
+        map.put("model", model);
+        return "index_banner";
+    }
+
 }

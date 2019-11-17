@@ -6,16 +6,16 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
 import org.apache.commons.io.IOUtils;
+import org.bson.types.ObjectId;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.mongodb.gridfs.GridFsTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,6 +23,9 @@ import java.util.Map;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class FreemarkerControllerTest {
+
+    @Autowired
+    GridFsTemplate gridFsTemplate;
 
     //基于模板生成静态化文件
     @Test
@@ -79,4 +82,19 @@ public class FreemarkerControllerTest {
         FileOutputStream fileOutputStream = new FileOutputStream(new File("/Users/zijingqiuxue/Desktop/FTL/test1.html"));
         IOUtils.copy(inputStream, fileOutputStream);
     }
+
+
+    @Test
+    public void gridFSTest() throws Exception {
+        //要存储的文件
+        File file = new File("/Users/zijingqiuxue/Desktop/FTL/index_banner.ftl");
+        //定义输入流
+        FileInputStream inputStream = new FileInputStream(file);
+        //向GridFS存储文件
+        ObjectId revan_test = gridFsTemplate.store(inputStream, "Grid存储测试");
+        //得到文件id
+        String fildId = revan_test.toString();
+        System.out.println("FreemarkerControllerTest.gridFSTest:==" + fildId);
+    }
+
 }

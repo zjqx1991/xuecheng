@@ -26,6 +26,12 @@ public enum CommonCode implements IResultCode{
     CMS_ADDPAGE_EXISTS(false, 1, "添加页面已存在"),
     CMS_NOT_FOUND(false, 2, "页面不已存"),
 
+    //CMS_template
+    CMS_TEMPLATE_PATH_NOT_FOUND(false, 1, "模板文件路径不存在"),
+    CMS_TEMPLATE_GRIDFS_SAVE_FAIL(false, 2, "模板文件存储GridFS失败"),
+    CMS_TEMPLATE_DELETE_PARAM_FAIL(false, 3, "模板文件删除id错误"),
+
+
     //CMS_Config
     CMS_CONFIG_NOT_FOUND(false, 1, "内容不已存"),
     ;

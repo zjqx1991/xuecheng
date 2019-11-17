@@ -1,6 +1,7 @@
 package com.revanwang.xc.manage_cms.web.controller;
 
 import com.revanwang.xc.api.cms.ICmsTemplateAPI;
+import com.revanwang.xc.framework.domain.cms.CmsTemplate;
 import com.revanwang.xc.framework.domain.cms.request.QueryPageRequest;
 import com.revanwang.xc.framework.domain.cms.request.QueryTemplateRequest;
 import com.revanwang.xc.framework.model.response.QueryResponseResult;
@@ -19,5 +20,17 @@ public class CmsTemplateController implements ICmsTemplateAPI {
     @GetMapping("/list/{page}/{size}")
     public QueryResponseResult findCmsTemplateList(@PathVariable("page") int page, @PathVariable("size") int size, QueryTemplateRequest templateRequest) {
         return this.cmsTemplateService.findCmsTemplateList(page, size, templateRequest);
+    }
+
+    @Override
+    @GetMapping("/add")
+    public QueryResponseResult cmsTemplateAdd(CmsTemplate template) {
+        return this.cmsTemplateService.cmsTemplateAdd(template);
+    }
+
+    @Override
+    @GetMapping("/delete/{id}")
+    public QueryResponseResult cmsTemplateDelete(@PathVariable("id")String id) {
+        return this.cmsTemplateService.cmsTemplateDelete(id);
     }
 }
